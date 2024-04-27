@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw Circle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <p id="problemStatement"></p>
+
+    <label for="slices">Enter number of parts:</label>
+    <input type="number" id="slices" min="1" max="12" step="1">
+    <button onclick="drawCircle()">Draw Circle</button>
+
+    <svg id="circleContainer" width="210" height="210" style="display: none;">
+        <!-- Circle will be drawn here -->
+    </svg>
+
+    <button onclick="checkAnswer()" id="checkButton" style="display: none;">Check Answer</button>
+    <button onclick="loadNewProblem()" id="tryAnotherButton" style="display: none;">Try another</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

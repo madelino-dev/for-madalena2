@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    text-align: center;
+    padding: 40px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#circleContainer {
+    margin: 20px auto;
+    border: 2px dashed #ddd;
+    border-radius: 50%;
+    position: relative;
+    background-color: #e1f5fe;
+}
+
+path {
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+
+path:hover {
+    fill: #b3e5fc;
+}
+
+p {
+    font-size: 1.5em;
+    color: #2c3e50;
+    padding: 20px;
+    border: 3px solid #3498db;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    display: inline-block;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#checkButton, #tryAnotherButton {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 1.3em;
+}
+
+#tryAnotherButton {
+    background-color: #e74c3c; /* Red color */
+}
+
+#tryAnotherButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
